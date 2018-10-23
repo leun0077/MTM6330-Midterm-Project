@@ -4,55 +4,87 @@
 <head>
   <meta charset="UTF-8">
   <title>Midterm</title>
-  <link rel="stylesheet" href="main.scss">
+  <link rel="stylesheet" href="./main.scss">
 </head>
 
 <body class="contact-bg">
   <header>
     <div class="box">
       <div class="masthead">
-        <h1>Game company's welcome!</h1>
       </div>
-      <nav>
-        <ul class="main-nav">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./product.html">Product</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
+      <nav id="navbar">
+        <div class="nav-wrapper">
+          <div class="logo">
+            <a href="./index.html"><i class="logo"></i> <img src="./images//Panda-gaming.png" alt="panda-gaming-logo"></a>
+          </div>
+          <ul id="menu">
+            <li><a href="./index.html">Home</a></li>
+
+            <li><a href="./product.html">Product</a></li>
+
+            <li><a href="./contact.html">Contact</a></li>
+
+          </ul>
+        </div>
       </nav>
-    </div>
-    <div class="form">
-      <form>
+      <h2 class="contactheading">Contact us anytime!</h2>
+      <div class="form">
+        <form>
 
-        <fieldset>
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name">
-        </fieldset>
+          <fieldset>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+          </fieldset>
 
-        <fieldset>
-          <label for="email">Email</label>
-          <input type="text" name="email" id="email">
-        </fieldset>
+          <fieldset>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+          </fieldset>
 
-        <fieldset>
-          <label for="message">Message</label>
-          <textarea name="message" id="message"></textarea>
-        </fieldset>
+          <fieldset>
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </fieldset>
 
-        <fieldset>
-          Yes, please subscribe me to spam <input type="checkbox" name="spam" value="yes" checked>
-        </fieldset>
+          <fieldset>
+            Yes, please subscribe me to spam <input type="checkbox" name="spam" value="yes" checked>
+          </fieldset>
 
-        <input type="submit" value="Submit">
+          <input type="submit" value="Submit">
 
-      </form>
-    </div>
+        </form>
+      </div>
+      <h2>Hours of operation</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Days</th>
+            <th>Times</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday - Friday</td>
+            <td>24 Hours</td>
 
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>10am - 5pm</td>
+
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>10am - 2pm</td>
+
+          </tr>
+          <tr>
+            <td>Holidays</td>
+            <td>Closed</td>
+          </tr>
+        </tbody>
+      </table>
   </header>
-  <div class="google">
-    <iframe clearfix width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJByjqov3-AzQR2pT0dDW0bUg&key=AIzaSyClDxLtsmcSHaErWo4ldBLeZEcE1MLVAgo"
-      allowfullscreen></iframe>
-  </div>
   <footer>
     <div class="box">
       <div class="top">
