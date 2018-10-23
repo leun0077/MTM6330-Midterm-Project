@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* Mobile for nav*/
 @media (max-width: 400px) {
   #navbar li {
     display: block;
@@ -134,19 +135,28 @@ a {
 
 .logo img {
   float: left;
-  height: 10px;
+  height: 100px;
   width: 100%;
 }
 
+/* Banner Img */
 .masthead {
-  margin-top: 20rem;
+  height: 200px;
+  position: relative;
+  text-align: center;
   background-image: url("./images/banner-image.jpg");
-  height: 300px;
+  margin-top: 3.9rem;
   background-position: center center;
 }
 
 .masthead h1 {
   color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -188,6 +198,7 @@ h1 {
   background-image: url("./images/contact-bg.jpg");
 }
 
+/*Footer*/
 footer {
   background-color: rgba(0, 0, 0, 0.673);
   color: white;
@@ -200,6 +211,35 @@ body {
   background-color: rgba(143, 160, 255, 0.242);
 }
 
+/* Homepage col */
+.weekly {
+  background-image: url("./images/weekly-deals.png");
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+  color: white;
+}
+
+/* Mobile col */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+/* Product page col */
 .row {
   margin: 0 0 1rem 0;
   padding: 1rem;
@@ -232,7 +272,7 @@ h2 {
   color: rgba(254, 133, 67, 0.735);
 }
 
-/* Table */
+/* Hours table */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -381,10 +421,6 @@ textarea:hover {
 
 #submit:hover {
   color: #e2dedb;
-}
-
-.google {
-  text-align: center;
 }
 
 @media screen and (min-width: 50rem) {
