@@ -57,10 +57,10 @@ a {
   }
 }
 
-.logo {
+.logo img {
   float: left;
-  margin-left: 10px;
-  height: 60px;
+  width: auto;
+  height: 4rem;
 }
 
 #navbar ul {
@@ -132,18 +132,12 @@ a {
   /* transition: 0s; */
 }
 
-// Logo
-.logo img {
-  float: left;
-  height: 100px;
-  width: 100%;
-}
 /* Banner Img */
 .masthead {
   height: 200px;
   position: relative;
   text-align: center;
-  background-image: url('./images/banner-image.jpg');
+  background-image: url('../../images/banner-image.jpg');
   margin-top: 3.9rem;
   background-position: center center;
 }
@@ -192,7 +186,7 @@ h1 {
   color: aliceblue;
 }
 .contact-bg {
-  background-image: url('./images/contact-bg.jpg');
+  background-image: url('../../images/contact-bg.jpg');
 }
 /*Footer*/
 footer {
