@@ -212,8 +212,8 @@ body {
 }
 
 /* Homepage col */
-.weekly {
-  background-image: url("./images/weekly-deals.png");
+.weekly img {
+  text-align: center center;
 }
 
 .column {
@@ -221,6 +221,18 @@ body {
   width: 33.33%;
   padding: 10px;
   height: 300px;
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.column p {
+  font-family: Papyrus, fantasy;
+}
+
+.column p img {
+  width: 350px;
+  height: auto;
+  text-align: center center;
 }
 
 .row:after {
@@ -234,11 +246,18 @@ h2 {
 }
 
 /* Mobile col */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .column {
     width: 100%;
   }
 }
+.column {
+  background-color: grey;
+  opacity: 0.9;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
 /* Product page col */
 .row {
   margin: 0 0 1rem 0;
